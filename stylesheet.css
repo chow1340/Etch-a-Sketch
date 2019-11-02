@@ -1,0 +1,24 @@
+:root {
+    --numRows: 16;
+    --numCols: 16;
+}
+
+.container {
+    display: grid;
+    width: 700px;
+    height: 700px;
+    border-style: solid;
+    grid-template-columns: repeat(var(--numCols), auto) ;
+    grid-template-rows: repeat(var(--numRows), auto) ;
+}
+
+.row, .column{
+    border: 1px solid 
+
+}
+#resetButton {
+    width: 55px;
+    height: 20px;
+    text-align: center;
+
+}
