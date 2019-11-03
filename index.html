@@ -1,25 +1,34 @@
 <!DOCTYPE html>
 <html>
 <link href = 'stylesheet.css' rel = 'stylesheet ' type = 'text/css'>
+<heading>
+    <h1> Etch - A - Sketch </h1>
+</heading>
 <body>
+
+<div class = canvas>
+Rows: <input type = 'number'  name = 'rowNum' id = 'rowNum' > 
+Column: <input type = 'number' name = 'colNum' id = 'colNum' >
+<button id = 'resetButton'> Create Canvas! </button>
+</div>
+
+</br>
+</br>
 
 <div class= container></div>
 
-<br>
-
-<button id = 'resetButton'> Reset! </button>
-<p>Rows: <input type = 'number'  name = 'rowNum' id = 'rowNum' value = 10> </p>
-<p>Column: <input type = 'number' name = 'colNum' id = 'colNum' value = 20></p>
-
 
 
 <br>
-<br>
+
 
 <div class = radios>
-<input type = 'radio' name = 'color' class = black value = 'black' checked> Black 
-<input type = 'radio' name = 'color' class = random value = 'random'> Random
-<input type = 'radio' name = 'color' class = eraser value = 'eraser'> Eraser
+    <input type = 'radio' name = 'color' class = black value = 'black' checked> Black 
+    <br>
+    <input type = 'radio' name = 'color' class = random value = 'random'> Random
+    <br>
+    <input type = 'radio' name = 'color' class = eraser value = 'eraser'> Eraser
+    <br>
 </div>
 
 
